@@ -2,9 +2,9 @@
 
 namespace LaravelGenerator\Generator;
 
+use LaravelGenerator\Generator\Commands\GeneratorCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use LaravelGenerator\Generator\Commands\GeneratorCommand;
 
 class GeneratorServiceProvider extends PackageServiceProvider
 {
